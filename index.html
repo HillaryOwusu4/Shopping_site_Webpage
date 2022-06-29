@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping</title>
+    <script src="https://kit.fontawesome.com/6565e8edc1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Css/styling.css">
+    <link rel="shortcut icon" href="/Assets/grocery-cart.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@1,700&family=League+Gothic&display=swap" rel="stylesheet">
+    <script src="/Javascript/main.js"></script>
+</head>
+
+
+<body>
+    <nav>
+
+        <div class="nav_content">
+            <div class="nav_left">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="nav_menu">
+                    <i class="fa-solid fa-bars"></i>
+                    <div class="nav_titles">
+                        <p>select</p>
+                        <span>Category</span>
+                    </div>
+                </div>
+            </div>
+            <div class="nav_center">
+                <span>AGORA</span>
+            </div>
+            <div class="nav_right">
+                <div class="nav_right1">
+                    <div class="user"><a><i class="fa-solid fa-user"></i></a></div>
+                    <div class="heart"><a><i class="fa-solid fa-heart"></i></a></div>
+                </div>
+
+                <div class="nav_right2">
+                    <p>2</p><a><i class="fa-solid fa-cart-shopping"></i></a></div>
+
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="main_container">
+        <div class="main_container_up">
+
+            <span>MEN'S LIFESTYLE SHOES</span>
+            <div class="main_catalog">
+                <p>Home</p>&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fa-solid fa-angle-right fa-xs"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+                <p>Catelog</p>&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fa-solid fa-angle-right fa-xs"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                <p>Men</p>&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fa-solid fa-angle-right fa-xs"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+                <p>Shoes</p>
+
+            </div>
+        </div>
+
+
+        <div class="main_container_down">
+            <div class="main_content1">
+
+
+
+                <div class="main_content">
+                    <div class="main_content_up">
+                        <div class="content_left">
+                            <div class="content_left_items">
+
+                                <div class="item_left">
+                                    <p>now</p>
+                                    <p>MOUNTAIN BIKE</p>
+                                    <P>Trek Speed Concept</P>
+                                    <p>More Info</p>
+                                </div>
+                                <div class="item_right">
+                                    <img src="/Assets/Faded_with_BAUM-removebg-preview (1).png" width="600px" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content_right">
+                            <div class="item_sales">
+                                <p>sale</p>
+                                <p>DOWN JACKET</p>
+                                <P>Sale Collection 2015</P>
+                                <p>More Info</p>
+
+                            </div>
+                            <div class="item_sales2">
+                                <img src="/Assets/Geographical_Norway__Doudoune_Femme_Batoura__Doudounes__femmes_-removebg-preview.png" alt="" width="280px" height="260px">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_content_down">
+                        <div class="content_down1">
+                            <div class="content_down1_rows1">
+                                <div class="rows1_content">
+                                    <p>Filter</p>
+                                </div>
+                                <div class="rows1_content1"><i class="fa-solid fa-rotate"></i></div>
+                            </div>
+                            <div class="content_down1_rows2">
+                                <button id="btn-category-ddown"><i id="icon-btn" class="fa-solid fa-angle-down"></i><p>Categroy</p><i class="fa-solid fa-xmark"></i>
+                                </button>
+                                <ul id="category-list" class="toggle">
+                                    <li>
+                                        <p>Lifestyle</p><span>1</span></li>
+                                    <li>
+                                        <p>Runnig</p><span>23</span></li>
+                                    <li>
+                                        <p>Training & Gym</p><span>45</span></li>
+                                    <li>
+                                        <p>Basketball</p><span>11</span></li>
+                                    <li>
+                                        <p>Football</p><span>15</span></li>
+                                    <li>
+                                        <p>Soccer</p><span>32</span></li>
+                                    <li>
+                                        <p>Basball</p><span>8</span></li>
+                                    <li>
+                                        <p>Golf</p><span>15</span></li>
+                                    <li>
+                                        <p>Skateboarding</p><span>22</span></li>
+                                </ul>
+                            </div>
+                            <div class="content_down1_rows3">
+                                <div class="Wrapper">
+                                    <div class="value">
+                                        <div class="number1">
+                                            <span id="range">0</span>
+                                        </div>
+                                        <!-- <span>&dash;</span> -->
+                                        <div class="number2">
+                                            <span id="range1">100</span>
+                                        </div>
+                                    </div>
+                                    <div class="Container">
+                                        <div class="slider-track">
+                                            <input type="range" min="0" max="2000" value="$50" id="slider-1" oninput="slider1()">
+                                            <input type="range" min="0" max="2000" value="$2000" id="slider-2" oninput="slider2()">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="content_down1_rows2">
+                                <button id="btn-sizes"><i class="fa-icon fa-solid fa-angle-down"></i><p>BRANDS</p><i class="fa-solid fa-xmark"></i>
+                                </button>
+                                <ul id="sizes-list" class="toggle">
+                                    <li>
+                                        <p>Lifestyle</p><input type="checkbox"></li>
+                                    <li>
+                                        <p>Runnig</p><input type="checkbox"></li>
+                                    <li>
+                                        <p>Training & Gym</p><input type="checkbox"></li>
+                                    <li>
+                                        <p>Basketball</p><input type="checkbox"></li>
+
+                                </ul>
+                            </div>
+                            <div class="content_down1_rows5"></div>
+                            <div class="content_down1_rows6">
+                                <button id="brands_btn"><i class=" last_icon fa-solid fa-angle-down"></i><p>Sizes</p><i class="fa-solid fa-xmark"></i>
+                                </button>
+                                <ul id="list_brands">
+                                    <li>
+                                        <p>4</p>
+                                        <p>4.5</p>
+                                        <p>5</p>
+                                        <p>5.5</p>
+                                        <p>6</p>
+                                    </li>
+                                    <li>
+                                        <p>6.5</p>
+                                        <p>7</p>
+                                        <p>7.5</p>
+                                        <p>8</p>
+                                        <p>8.55</p>
+                                    </li>
+                                    <li>
+                                        <p>9</p>
+                                        <p>9.5</p>
+                                        <p>10</p>
+                                        <p>10.5</p>
+                                        <p>11</p>
+                                    </li>
+                                    <li>
+                                        <p>11.5</p>
+                                        <p>12</p>
+                                        <p>12.5</p>
+                                        <p>13</p>
+                                        <p>13.5</p>
+                                    </li>
+                                    <li>
+                                        <p>14</p>
+                                        <p>14.5</p>
+                                        <p>15</p>
+                                        <p>16.5</p>
+                                        <p>17</p>
+
+                                    </li>
+                                    <li>
+                                        <p>18</p>
+                                        <p>19</p>
+                                        <!-- <p>3</p>
+                                        <p>4</p>
+                                        <p>5</p> -->
+
+                                    </li>
+
+
+
+
+
+                                </ul>
+                            </div>
+                            <div class="content_down1_rows7"></div>
+                        </div>
+                        <div class="content_down2">
+                            <div class="item1">
+                                <div class="price_range">
+                                    <p>SORT BY: Price $-<i class="fa-solid fa-dollar-sign fa-xs"></i>$</p>
+                                </div>
+                                <div class="price_icon">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </div>
+                            </div>
+                            <div class="item1">
+                                <div class="price_range">
+                                    <p>Show: 12 </p>
+                                </div>
+                                <div class="price_icon">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </div>
+                            </div>
+                            <div class="item2">
+                                <div class="item2_menu"><img src="/Assets/menu (1).png " width="20px" height="20px"></div>
+                                <div class="item2_menu3"><i class="fa-solid fa-bars"></i></div>
+                                <div class="item2_menu4">
+                                    <p>COMPARE:</p>
+                                    <P>3</P>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="/Assets/jordan-removebg-preview.png" width="200px" height="150px">
+                                <p>KD 8 EXT</p>
+                                <span>$145.00</span>
+                                <div class="item_hover">
+                                    <div class="item_hover1">
+                                        <span>LIFESTYLE</span>
+                                        <P>-20%</P>
+                                    </div>
+                                    <div class="item_hover2">
+                                        <button><i class="fa-solid fa-person-falling"></i>Buy</button>
+                                        <div class="hover_icons"><i class="fa-solid fa-paste"></i>
+                                            <i class="fa-solid fa-heart"></i></div>
+                                    </div>
+                                    <div class="item_hover3">
+                                        <p>Nike Air Footscape Magista Flyknit</p>
+                                        <div class="span"><span>$235.00</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item " id="yes">
+                                <img src="/Assets/Jordan_12_Retro_Light_Aqua__GS_-removebg-preview.png" width="200px" height="150px">
+                                <p>Jorden Galaxy</p>
+                                <span>$599.00</span>
+                                <div class="item_hover" id="hello">
+                                    <div class="item_hover1">
+                                        <span>LIFESTYLE</span>
+                                        <P>-20%</P>
+                                    </div>
+                                    <div class="item_hover2">
+                                        <button><i class="fa-solid fa-person-falling"></i>Buy</button>
+                                        <div class="hover_icons"><i class="fa-solid fa-paste"></i>
+                                            <i class="fa-solid fa-heart"></i></div>
+                                    </div>
+                                    <div class="item_hover3">
+                                        <p>Nike Air Footscape Magista Flyknit</p>
+                                        <div class="span"><span>$235.00</span></div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="/Assets/Jordan_12_Retro_Light_Aqua__GS_-removebg-preview.png" width="200px" height="150px">
+                                <p>Nike SB Trainerendor Lethe</p>
+                                <span>$190.00</span>
+                                <div class="item_hover">
+                                    <div class="item_hover1">
+                                        <span>LIFESTYLE</span>
+                                        <P>-20%</P>
+                                    </div>
+                                    <div class="item_hover2">
+                                        <button><i class="fa-solid fa-person-falling"></i>Buy</button>
+                                        <div class="hover_icons"><i class="fa-solid fa-paste"></i>
+                                            <i class="fa-solid fa-heart"></i></div>
+                                    </div>
+                                    <div class="item_hover3">
+                                        <p>Nike Air Footscape Magista Flyknit</p>
+                                        <div class="span"><span>$235.00</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="/Assets/Jordan_12_Retro_University_Blue__PS_-removebg-preview.png" width="200px" height="150px">
+                                <p>Air Jordan Spike 40 iD</p>
+                                <span>$599.00</span>
+                                <div class="item_hover">
+                                    <div class="item_hover1">
+                                        <span>LIFESTYLE</span>
+                                        <P>-20%</P>
+                                    </div>
+                                    <div class="item_hover2">
+                                        <button><i class="fa-solid fa-person-falling"></i>Buy</button>
+                                        <div class="hover_icons"><i class="fa-solid fa-paste"></i>
+                                            <i class="fa-solid fa-heart"></i></div>
+                                    </div>
+                                    <div class="item_hover3">
+                                        <p>Nike Air Footscape Magista Flyknit</p>
+                                        <div class="span"><span>$235.00</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="/Assets/Jordan_4_Retro_Military_Blue__2012_-removebg-preview (1).png" width="200px" height="150px">
+                                <p>Nike Footsteps Magista Flyknit</p>
+                                <span>$235.00</span>
+                                <div class="item_hover">
+                                    <div class="item_hover1">
+                                        <span>LIFESTYLE</span>
+                                        <P>-20%</P>
+                                    </div>
+                                    <div class="item_hover2">
+                                        <button><i class="fa-solid fa-person-falling"></i>Buy</button>
+                                        <div class="hover_icons"><i class="fa-solid fa-paste"></i>
+                                            <i class="fa-solid fa-heart"></i></div>
+                                    </div>
+                                    <div class="item_hover3">
+                                        <p>Nike Air Footscape Magista Flyknit</p>
+                                        <div class="span"><span>$235.00</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item"><img src="/Assets/Jordan_True_Flight_White_Cement-removebg-preview.png" width="200px" height="150px">
+                                <p>Nike Air ZOOM hurache 2K4</p>
+                                <span>$200.00</span>
+                                <div class="item_hover">
+                                    <div class="item_hover1">
+                                        <span>LIFESTYLE</span>
+                                        <P>-20%</P>
+                                    </div>
+                                    <div class="item_hover2">
+                                        <button><i class="fa-solid fa-person-falling"></i>Buy</button>
+                                        <div class="hover_icons"><i class="fa-solid fa-paste"></i>
+                                            <i class="fa-solid fa-heart"></i></div>
+                                    </div>
+                                    <div class="item_hover3">
+                                        <p>Nike Air Footscape Magista Flyknit</p>
+                                        <div class="span"><span>$235.00</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item"><img src="/Assets/Nike_Air_Zoom_Turf_Jet_97_Barry_Sanders__2019_-removebg-preview.png" width="200px" height="150px">
+                                <p>Jorden Horizon</p>
+                                <span>$230.00</span>
+                                <div class="item_hover">
+                                    <div class="item_hover1">
+                                        <span>LIFESTYLE</span>
+                                        <P>-20%</P>
+                                    </div>
+                                    <div class="item_hover2">
+                                        <button><i class="fa-solid fa-person-falling"></i>Buy</button>
+                                        <div class="hover_icons"><i class="fa-solid fa-paste"></i>
+                                            <i class="fa-solid fa-heart"></i></div>
+                                    </div>
+                                    <div class="item_hover3">
+                                        <p>Nike Air Footscape Magista Flyknit</p>
+                                        <div class="span"><span>$235.00</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item"><img src="/Assets/Nike_Air_Max_270_White_Black_Orange__W_-removebg-preview.png" width="200px" height="150px">
+                                <p>Air Jordan XX9 Low</p>
+                                <span>$185.00</span>
+                                <div class="item_hover">
+                                    <div class="item_hover1">
+                                        <span>LIFESTYLE</span>
+                                        <P>-20%</P>
+                                    </div>
+                                    <div class="item_hover2">
+                                        <button><i class="fa-solid fa-person-falling"></i>Buy</button>
+                                        <div class="hover_icons"><i class="fa-solid fa-paste"></i>
+                                            <i class="fa-solid fa-heart"></i></div>
+                                    </div>
+                                    <div class="item_hover3">
+                                        <p>Nike Air Footscape Magista Flyknit</p>
+                                        <div class="span"><span>$235.00</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item"><img src="/Assets/Nike_Air_Max_270_Platinum_Coral__GS_-removebg-preview.png" width="200px" height="150px">
+                                <p>LeBron XII Premium AS iD</p>
+                                <span>$26S.00</span>
+                                <div class="item_hover">
+                                    <div class="item_hover1">
+                                        <span>LIFESTYLE</span>
+                                        <P>-20%</P>
+                                    </div>
+                                    <div class="item_hover2">
+                                        <button><i class="fa-solid fa-person-falling"></i>Buy</button>
+                                        <div class="hover_icons"><i class="fa-solid fa-paste"></i>
+                                            <i class="fa-solid fa-heart"></i></div>
+                                    </div>
+                                    <div class="item_hover3">
+                                        <p>Nike Air Footscape Magista Flyknit</p>
+                                        <div class="span"><span>$235.00</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item"><img src="/Assets/Nike_Air_Presto_Desert_Dust__W_-removebg-preview.png" width="200px" height="150px">
+                                <p>Air Jordan 1 Retro High Nouveau</p>
+                                <span>$190.00</span>
+                                <div class="item_hover">
+                                    <div class="item_hover1">
+                                        <span>LIFESTYLE</span>
+                                        <P>-20%</P>
+                                    </div>
+                                    <div class="item_hover2">
+                                        <button><i class="fa-solid fa-person-falling"></i>Buy</button>
+                                        <div class="hover_icons"><i class="fa-solid fa-paste"></i>
+                                            <i class="fa-solid fa-heart"></i></div>
+                                    </div>
+                                    <div class="item_hover3">
+                                        <p>Nike Air Footscape Magista Flyknit</p>
+                                        <div class="span"><span>$235.00</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item"><img src="/Assets/Nike_Air_Max_270_Blue_Void__W_-removebg-preview (1).png" width="200px" height="150px">
+                                <p>Nike Air Presto</p>
+                                <span>$175.00</span>
+                                <div class="item_hover">
+                                    <div class="item_hover1">
+                                        <span>LIFESTYLE</span>
+                                        <P>-20%</P>
+                                    </div>
+                                    <div class="item_hover2">
+                                        <button><i class="fa-solid fa-person-falling"></i>Buy</button>
+                                        <div class="hover_icons"><i class="fa-solid fa-paste"></i>
+                                            <i class="fa-solid fa-heart"></i></div>
+                                    </div>
+                                    <div class="item_hover3">
+                                        <p>Nike Air Footscape Magista Flyknit</p>
+                                        <div class="span"><span>$235.00</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item"><img src="/Assets/Nike_Air_Max_270_Gs__Elemental_Rose__-_Nike_-_943345_601_-_elemental_rose_black-white___Flight_Club-removebg-preview.png" width="200px" height="150px">
+                                <p>KD & Premium AS iD</p>
+                                <span>$245.00</span>
+                                <div class="item_hover">
+                                    <div class="item_hover1">
+                                        <span>LIFESTYLE</span>
+                                        <P>-20%</P>
+                                    </div>
+                                    <div class="item_hover2">
+                                        <button><i class="fa-solid fa-person-falling"></i>Buy</button>
+                                        <div class="hover_icons"><i class="fa-solid fa-paste"></i>
+                                            <i class="fa-solid fa-heart"></i></div>
+                                    </div>
+                                    <div class="item_hover3">
+                                        <p>Nike Air Footscape Magista Flyknit</p>
+                                        <div class="span"><span>$235.00</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item4"><i class="fa-solid fa-angle-left"></i></div>
+                            <div class="item5">
+                                <div class="pages">1</div>
+                                <div class="pages">2</div>
+                                <div class="pages">3</div>
+                                <div class="pages">4</div>
+                                <div class="pages">5</div>
+                            </div>
+                            <div class="item6">
+                                <div class=""></div>
+                                <div class="icon10"><i class="fa-solid fa-angle-right"></i></div>
+                            </div>
+
+                        </div>
+                        <!-- <div class="content_down3"></div>
+                        <div class="content_down4"></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer1">
+                <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</p>
+                <div class="hello">
+                    <input type="text" placeholder="Enter your email" id="text">
+                </div>
+
+            </div>
+        </div>
+        <div class="last_footer">
+            <div class="last_footer1">
+                <div class="footer1_content">
+                    <span>AGORA</span>
+                    <P>Contrary to popular belief, Lorem Ipsum is not <br>simply random text. It has roots in a piece of classical.</P>
+                    <div class="LAST_ITEM">
+                        <p>@ideas</p>
+                        <p>Terms of Use</p>
+                        <P>Privacy Policy</P>
+                    </div>
+                    <p>2013-2015</p>
+                </div>
+                <div class="footer1_content2"><span>Get Help</span>
+                    <p>Order Status</p>
+                    <p>Shipping and Delivery</p>
+                    <p>Payment option</p>
+                    <p>Contact us</p>
+                </div>
+                <div class="footer1_content2">
+                    <span>About Us</span>
+                    <p>Careers</p>
+                    <P>Sustainability</P>
+                    <p>Service</p>
+                    <p>GA Supply chains Act </p>
+                </div>
+                <div class="footer1_content3">
+                    <div class="last_icons"><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-google-plus-g"></i><i class="fa-brands fa-tiktok"></i></div>
+                    <p>Payment Method</p>
+                    <div class="visa">
+                        <p>PayPal</p>
+                        <P>VISA</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.onload = function() {
+            slider1();
+            slider2();
+        }
+        let sliderOne = document.getElementById("slider-1");
+        let sliderTwo = document.getElementById("slider-2");
+        let displayv1 = document.getElementById("range");
+        let displayv2 = document.getElementById("range1");
+        let minGap = 500;
+        let sliderTrack = document.querySelector(".slider-track");
+        const sliderMaxValue = document.getElementById("slider-1").max;
+        const dropicon = document.querySelector(".fa-angle-down");
+        const brand_btn = document.getElementById("brands_btn");
+        const brands_list = document.getElementById("list_brands");
+        const list_category = document.getElementById("category-list");
+        const btn_toggle_category = document.getElementById("btn-category-ddown");
+        const sizes_btn = document.getElementById("btn-sizes");
+        const list_sizes = document.getElementById("sizes-list");
+        const rotate_icon = document.querySelector(".fa-angle-down");
+        const size_icin = document.querySelector(".fa-icon");
+        const btn_icon = document.querySelector(".last_icon");
+        const hover_element = document.querySelector(".item_hover");
+        const item = document.querySelector(".item");
+        const item2 = document.querySelector("#hello");
+        const item3 = document.querySelector("#yes");
+
+        function slider1() {
+            if ((parseInt(sliderTwo.value) - parseInt(sliderOne.value)) <= minGap) {
+                sliderOne.value = parseInt(sliderTwo.value) - minGap;
+            }
+            displayv1.textContent = sliderOne.value;
+            fillColor();
+        }
+
+        function slider2() {
+            if ((parseInt(sliderTwo.value) - parseInt(sliderOne.value)) <= minGap) {
+                sliderTwo.value = parseInt(sliderOne.value) + minGap;
+            }
+            displayv2.textContent = sliderTwo.value
+            fillColor();
+        }
+
+        function fillColor() {
+            percent1 = (sliderOne.value / sliderMaxValue) * 100;
+            percent2 = (sliderTwo.value / sliderMaxValue) * 100;
+            sliderTrack.style.background = `linear-gradient(to right,blue,blue)`;
+            console.log(sliderTrack.style.background)
+        }
+
+        function dropDown(actionBtn, target, rotate) {
+            actionBtn.addEventListener('click', () => {
+                target.classList.toggle('inactive')
+                rotate.classList.toggle("caret_rotate");
+                // rotate_icon.style.transform = "rotate(180deg)";
+                const clsList = [...target.classList];
+                setTimeout(() => {
+
+                    if (clsList.includes('inactive')) {
+                        target.style.visibility = "hidden";
+
+                    } else {
+                        target.style.visibility = "visible";
+
+                    }
+                }, 900);
+            })
+        }
+        dropDown(btn_toggle_category, list_category, rotate_icon);
+        dropDown(brand_btn, brands_list, btn_icon);
+        dropDown(sizes_btn, list_sizes, size_icin);
+
+
+
+
+
+
+        // function hover(action, target) {
+        //     action.addEventListener("click", () => {
+        //         target.classList.toggle("visible");
+        //     })
+        //     setTimeout(() => {
+
+        //     })
+        // }
+        // hover(item, hover_element);
+        // hover(item3, item2);
+    </script>
+</body>
+
+</html>
