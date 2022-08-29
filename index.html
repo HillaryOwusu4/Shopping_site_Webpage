@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>shopping</title>
+    <title>shopping</title>/
     <script src="https://kit.fontawesome.com/6565e8edc1.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/Css/styling.css">
-    <link rel="shortcut icon" href="/Assets/grocery-cart.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Css/styling.css">
+    <link rel="shortcut icon" href="../Assets/grocery-cart.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@1,700&family=League+Gothic&display=swap" rel="stylesheet">
+
     <script src="/Javascript/main.js"></script>
 </head>
 
@@ -49,7 +50,10 @@
 
     <div class="main_container">
         <div class="main_container_up">
-
+            <div class="search hidden">
+                <i class="fa-solid fa-magnifying-glass get"></i>
+                <input type="text" placeholder="search">
+            </div>
             <span>MEN'S LIFESTYLE SHOES</span>
             <div class="main_catalog">
                 <p>Home</p>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -81,7 +85,7 @@
                                     <p>More Info</p>
                                 </div>
                                 <div class="item_right">
-                                    <img src="/Assets/Faded_with_BAUM-removebg-preview (1).png" width="600px" alt="">
+                                    <img src="./Assets/Faded_with_BAUM-removebg-preview (1).png" width="600px" alt="">
                                 </div>
                             </div>
                         </div>
@@ -94,7 +98,7 @@
 
                             </div>
                             <div class="item_sales2">
-                                <img src="/Assets/Geographical_Norway__Doudoune_Femme_Batoura__Doudounes__femmes_-removebg-preview.png" alt="" width="280px" height="260px">
+                                <img src="./Assets/Geographical_Norway__Doudoune_Femme_Batoura__Doudounes__femmes_-removebg-preview.png" alt="" width="280px" height="260px">
                             </div>
                         </div>
                     </div>
@@ -168,9 +172,16 @@
 
                                 </ul>
                             </div>
-                            <div class="content_down1_rows5"></div>
+                            <div class="content_down1_rows5">
+                                <button id="btn-sizes"><i class="fa-icon fa-solid fa-angle-down"></i><p>color</p><i class="fa-solid fa-xmark"></i>
+                                </button>
+                                <div class="colorPaleteContainer" id="colorPaleteContainer">
+                                    <div class="colorsContent" id="colorsContent">
+                                    </div>
+                                </div>
+                            </div>
                             <div class="content_down1_rows6">
-                                <button id="brands_btn"><i class=" last_icon fa-solid fa-angle-down"></i><p>Sizes</p><i class="fa-solid fa-xmark"></i>
+                                <button id="brands_btn"><i class=" last_iconss fa-solid fa-angle-down"></i><p>Sizes</p><i class="fa-solid fa-xmark"></i>
                                 </button>
                                 <ul id="list_brands">
                                     <li>
@@ -244,7 +255,7 @@
                                 </div>
                             </div>
                             <div class="item2">
-                                <div class="item2_menu"><img src="/Assets/menu (1).png " width="20px" height="20px"></div>
+                                <div class="item2_menu"><img src="./Assets/menu (1).png " width="20px" height="20px"></div>
                                 <div class="item2_menu3"><i class="fa-solid fa-bars"></i></div>
                                 <div class="item2_menu4">
                                     <p>COMPARE:</p>
@@ -252,7 +263,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="/Assets/jordan-removebg-preview.png" width="200px" height="150px">
+                                <img src="./Assets/jordan-removebg-preview.png" width="200px" height="150px">
                                 <p>KD 8 EXT</p>
                                 <span>$145.00</span>
                                 <div class="item_hover">
@@ -272,7 +283,7 @@
                                 </div>
                             </div>
                             <div class="item " id="yes">
-                                <img src="/Assets/Jordan_12_Retro_Light_Aqua__GS_-removebg-preview.png" width="200px" height="150px">
+                                <img src="./Assets/Jordan_12_Retro_Light_Aqua__GS_-removebg-preview.png" width="200px" height="150px">
                                 <p>Jorden Galaxy</p>
                                 <span>$599.00</span>
                                 <div class="item_hover" id="hello">
@@ -293,7 +304,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="/Assets/Jordan_12_Retro_Light_Aqua__GS_-removebg-preview.png" width="200px" height="150px">
+                                <img src="./Assets/Jordan_12_Retro_Light_Aqua__GS_-removebg-preview.png" width="200px" height="150px">
                                 <p>Nike SB Trainerendor Lethe</p>
                                 <span>$190.00</span>
                                 <div class="item_hover">
@@ -313,7 +324,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="/Assets/Jordan_12_Retro_University_Blue__PS_-removebg-preview.png" width="200px" height="150px">
+                                <img src="./Assets/Jordan_12_Retro_University_Blue__PS_-removebg-preview.png" width="200px" height="150px">
                                 <p>Air Jordan Spike 40 iD</p>
                                 <span>$599.00</span>
                                 <div class="item_hover">
@@ -333,7 +344,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="/Assets/Jordan_4_Retro_Military_Blue__2012_-removebg-preview (1).png" width="200px" height="150px">
+                                <img src="./Assets/Jordan_4_Retro_Military_Blue__2012_-removebg-preview (1).png" width="200px" height="150px">
                                 <p>Nike Footsteps Magista Flyknit</p>
                                 <span>$235.00</span>
                                 <div class="item_hover">
@@ -352,7 +363,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item"><img src="/Assets/Jordan_True_Flight_White_Cement-removebg-preview.png" width="200px" height="150px">
+                            <div class="item"><img src="./Assets/Jordan_True_Flight_White_Cement-removebg-preview.png" width="200px" height="150px">
                                 <p>Nike Air ZOOM hurache 2K4</p>
                                 <span>$200.00</span>
                                 <div class="item_hover">
@@ -371,7 +382,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item"><img src="/Assets/Nike_Air_Zoom_Turf_Jet_97_Barry_Sanders__2019_-removebg-preview.png" width="200px" height="150px">
+                            <div class="item"><img src="./Assets/Nike_Air_Zoom_Turf_Jet_97_Barry_Sanders__2019_-removebg-preview.png" width="200px" height="150px">
                                 <p>Jorden Horizon</p>
                                 <span>$230.00</span>
                                 <div class="item_hover">
@@ -390,9 +401,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item"><img src="/Assets/Nike_Air_Max_270_White_Black_Orange__W_-removebg-preview.png" width="200px" height="150px">
+                            <div class="item"><img src="./Assets/Nike_Air_Max_270_White_Black_Orange__W_-removebg-preview.png" width="200px" height="150px">
                                 <p>Air Jordan XX9 Low</p>
-                                <span>$185.00</span>
                                 <div class="item_hover">
                                     <div class="item_hover1">
                                         <span>LIFESTYLE</span>
@@ -409,7 +419,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item"><img src="/Assets/Nike_Air_Max_270_Platinum_Coral__GS_-removebg-preview.png" width="200px" height="150px">
+                            <div class="item"><img src="./Assets/Nike_Air_Max_270_Platinum_Coral__GS_-removebg-preview.png" width="200px" height="150px">
                                 <p>LeBron XII Premium AS iD</p>
                                 <span>$26S.00</span>
                                 <div class="item_hover">
@@ -428,7 +438,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item"><img src="/Assets/Nike_Air_Presto_Desert_Dust__W_-removebg-preview.png" width="200px" height="150px">
+                            <div class="item"><img src="./Assets/Nike_Air_Presto_Desert_Dust__W_-removebg-preview.png" width="200px" height="150px">
                                 <p>Air Jordan 1 Retro High Nouveau</p>
                                 <span>$190.00</span>
                                 <div class="item_hover">
@@ -447,7 +457,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item"><img src="/Assets/Nike_Air_Max_270_Blue_Void__W_-removebg-preview (1).png" width="200px" height="150px">
+                            <div class="item"><img src="./Assets/Nike_Air_Max_270_Blue_Void__W_-removebg-preview (1).png" width="200px" height="150px">
                                 <p>Nike Air Presto</p>
                                 <span>$175.00</span>
                                 <div class="item_hover">
@@ -466,7 +476,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item"><img src="/Assets/Nike_Air_Max_270_Gs__Elemental_Rose__-_Nike_-_943345_601_-_elemental_rose_black-white___Flight_Club-removebg-preview.png" width="200px" height="150px">
+                            <div class="item"><img src="./Assets/Nike_Air_Max_270_Gs__Elemental_Rose__-_Nike_-_943345_601_-_elemental_rose_black-white___Flight_Club-removebg-preview.png" width="200px" height="150px">
                                 <p>KD & Premium AS iD</p>
                                 <span>$245.00</span>
                                 <div class="item_hover">
@@ -517,40 +527,43 @@
         </div>
         <div class="last_footer">
             <div class="last_footer1">
-                <div class="footer1_content">
-                    <span>AGORA</span>
-                    <P>Contrary to popular belief, Lorem Ipsum is not <br>simply random text. It has roots in a piece of classical.</P>
-                    <div class="LAST_ITEM">
-                        <p>@ideas</p>
-                        <p>Terms of Use</p>
-                        <P>Privacy Policy</P>
+                <div class="lastfooter2">
+                    <div class="footer1_content">
+                        <span>AGORA</span>
+                        <P>Contrary to popular belief, Lorem Ipsum is not <br>simply random text. It has roots in a piece of classical.</P>
+                        <div class="LAST_ITEM">
+                            <p>@ideas</p>
+                            <p>Terms of Use</p>
+                            <P>Privacy Policy</P>
+                        </div>
+                        <p>2013-2015</p>
                     </div>
-                    <p>2013-2015</p>
-                </div>
-                <div class="footer1_content2"><span>Get Help</span>
-                    <p>Order Status</p>
-                    <p>Shipping and Delivery</p>
-                    <p>Payment option</p>
-                    <p>Contact us</p>
-                </div>
-                <div class="footer1_content2">
-                    <span>About Us</span>
-                    <p>Careers</p>
-                    <P>Sustainability</P>
-                    <p>Service</p>
-                    <p>GA Supply chains Act </p>
-                </div>
-                <div class="footer1_content3">
-                    <div class="last_icons"><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-google-plus-g"></i><i class="fa-brands fa-tiktok"></i></div>
-                    <p>Payment Method</p>
-                    <div class="visa">
-                        <p>PayPal</p>
-                        <P>VISA</P>
+                    <div class="footer1_content2"><span>Get Help</span>
+                        <p>Order Status</p>
+                        <p>Shipping and Delivery</p>
+                        <p>Payment option</p>
+                        <p>Contact us</p>
+                    </div>
+                    <div class="footer1_content2">
+                        <span>About Us</span>
+                        <p>Careers</p>
+                        <P>Sustainability</P>
+                        <p>Service</p>
+                        <p>GA Supply chains Act </p>
+                    </div>
+                    <div class="footer1_content3">
+                        <div class="last_icons"><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-google-plus-g"></i><i class="fa-brands fa-tiktok"></i></div>
+                        <p>Payment Method</p>
+                        <div class="visa">
+                            <p>PayPal</p>
+                            <P>VISA</P>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
     <script>
         window.onload = function() {
             slider1();
@@ -572,11 +585,33 @@
         const list_sizes = document.getElementById("sizes-list");
         const rotate_icon = document.querySelector(".fa-angle-down");
         const size_icin = document.querySelector(".fa-icon");
-        const btn_icon = document.querySelector(".last_icon");
+        const btn_icon = document.querySelector(".last_iconss");
         const hover_element = document.querySelector(".item_hover");
         const item = document.querySelector(".item");
         const item2 = document.querySelector("#hello");
         const item3 = document.querySelector("#yes");
+        const search = document.querySelector('.fa-magnifying-glass')
+        const search2 = document.querySelectorAll('.search')
+        const search3 = document.querySelector('.get');
+        const check = document.querySelector('#getis');
+        const btn = document.getElementById('btn')
+        const colorsContent = document.getElementById('colorsContent');
+        const product_colorss = [
+            '#fff', '#de0', '#dd00bb', '#0cb', '#0af', '#fda', '#bcc', '#aee', '#00008B'
+        ]
+        let currentActiveColor = '';
+
+        search3.addEventListener('click', () => {
+            setTimeout(() => {
+                window.location.reload(true)
+            }, 1000)
+
+        });
+        search2.forEach(events => {
+            search.addEventListener('click', () => {
+                events.classList.toggle('visible');
+            })
+        })
 
         function slider1() {
             if ((parseInt(sliderTwo.value) - parseInt(sliderOne.value)) <= minGap) {
@@ -606,7 +641,7 @@
                 target.classList.toggle('inactive')
                 rotate.classList.toggle("caret_rotate");
                 // rotate_icon.style.transform = "rotate(180deg)";
-                const clsList = [...target.classList];
+
                 setTimeout(() => {
 
                     if (clsList.includes('inactive')) {
@@ -628,16 +663,63 @@
 
 
 
-        // function hover(action, target) {
-        //     action.addEventListener("click", () => {
-        //         target.classList.toggle("visible");
-        //     })
-        //     setTimeout(() => {
 
-        //     })
-        // }
-        // hover(item, hover_element);
-        // hover(item3, item2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        function selectD(e) {
+            for (let i = 0; i < colorsContent.children.length; i++) {
+                colorsContent.children[i].classList.remove('active');
+            }
+            e.target.classList.add('active')
+            currentActiveColor = e.target;
+        }
+
+        function onDoubleCheck(e) {
+            e.target.classList.toggle('checked')
+
+        }
+
+        function onInit() {
+            //colors management
+            product_colorss.forEach((value, i) => {
+                colorsContent.innerHTML += `<i class=${i=== 0 && 'active'} style= background:${value}; ></i>`
+            })
+            colorsContent.innerHTML += `
+                <div class = "colorPickker"> 
+                    <label for='color-select'> <i class="fa-solid fa-palette"></i> </label>
+                    <input  id='color-select' type='color' value="#ff0000"/>
+                </div>`
+            for (let i = 0; i < colorsContent.children.length; i++) {
+                if (i !== (colorsContent.children.length - 1)) {
+                    console.dir(colorsContent.children[i]);
+                    colorsContent.children[i].addEventListener('click', selectD)
+                    colorsContent.children[i].addEventListener('dblclick', onDoubleCheck)
+                }
+            }
+            colorsContent.lastChild.children[1].addEventListener('change', ({
+                target
+            }) => {
+                currentActiveColor.style.backgroundColor = target.value;
+                // colorsContent.innerHTML += `<i onclick="selectD" style= background:${target.value}; ></i>`
+            })
+            currentActiveColor = colorsContent.children[0]
+        }
+        onInit();
     </script>
 </body>
 

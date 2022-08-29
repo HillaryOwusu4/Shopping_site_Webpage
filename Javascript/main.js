@@ -33,3 +33,13 @@
 //     sliderTrack.style.background = `linear-gradient(to right,blue,blue)`;
 //     console.log(sliderTrack.style.background)
 // }
+
+function addListenersToIconBtns() {
+    for (let anIconBtn of footerBtnIcons) {
+        anIconBtn.addEventListener('click', function(event) {
+            var currentActive = footerContent[0].querySelector('.active');
+            currentActive.classList.remove("active");
+            anIconBtn.classList.toggle("active")
+        })
+    }
+}
